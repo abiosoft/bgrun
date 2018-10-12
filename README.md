@@ -1,6 +1,6 @@
 # bgrun
 
-A simple tool to start a process in background and gets the pid.
+A simple tool to start a process in background and get the pid.
 
 ## Usage
 
