@@ -1,0 +1,9 @@
+[Unit]
+Description=bgrun daemon
+
+[Service]
+ExecStart=/usr/local/bin/bgrun
+Restart=always
+
+[Install]
+WantedBy=default.target
