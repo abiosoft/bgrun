@@ -15,7 +15,7 @@ hello world
 
 The process pid and log file can be used to monitor and terminate the process. bgrun does not manage the process after starting it.
 
-### Running commands
+### List running commands
 
 ```sh
 bgrun -r
