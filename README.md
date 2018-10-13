@@ -15,10 +15,23 @@ hello world
 
 The process pid and log file can be used to monitor and terminate the process. bgrun does not manage the process after starting it.
 
+### Running commands
+
+```sh
+bgrun -r
+[{"pid": 1234, "command": "sh -c while sleep 1; do echo hello world; done", "log_file": "command.log"}]
+```
+
+### Help
+
+```sh
+bgrun -h
+```
+
 ## Install
 
 * copy `bgrun` && `bgrun.py` to a directory in `$PATH`
-* start daemon with `bgrun -s`
+* start daemon with `bgrun --daemon`
 
 There is an helper install script that works for systemd based Linux.
 

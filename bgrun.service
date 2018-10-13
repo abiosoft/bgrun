@@ -2,7 +2,7 @@
 Description=bgrun daemon
 
 [Service]
-ExecStart=/usr/local/bin/bgrun -s
+ExecStart=/usr/local/bin/bgrun --daemon
 Restart=always
 
 [Install]
